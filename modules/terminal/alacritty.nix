@@ -63,12 +63,12 @@
             key_bindings = [
                 {
                     key = "C";
-                    mods = "Control";
+                    mods = "Control|Shift";
                     action = "Copy";
                 }
                 {
                     key = "V";
-                    mods = "Control";
+                    mods = "Control|Shift";
                     action = "Paste";
                 }
             ];

@@ -8,6 +8,6 @@
     octaveFull bc
 
     # Latex
-    texmaker dot2tex
+    texmaker dot2tex texlive.combined.scheme-full
   ];
 }

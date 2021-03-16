@@ -13,6 +13,7 @@
                 rofi
                 i3blocks
                 i3lock
+                xss-lock
             ];
             configFile = ./i3.config;
         };

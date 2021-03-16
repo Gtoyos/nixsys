@@ -9,6 +9,7 @@
 
     # Manipulation
     youtube-dl ffmpeg
+    imagemagick
 
     #Audio utilities
     pamixer pavucontrol

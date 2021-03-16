@@ -12,6 +12,7 @@
     
     #Network
     networking = {
+        networkmanager.enable = true;
         hostName = "koneko";
         useDHCP = false;
         interfaces.enp0s25.useDHCP = true;

@@ -5,6 +5,12 @@
 {
   home.packages = with pkgs; [
 
+    # Doc viewer
+    okular
+
+    # Comms
+    thunderbird 
+
     # Data wrangling
     R pup jq
 
@@ -12,7 +18,7 @@
     wget aspell aspellDicts.en aspellDicts.es
 
     # Misc
-    neofetch ranger xorg.xev
+    neofetch ranger xorg.xev calcurse
 
     # Web
     wget curl wirelesstools
@@ -21,6 +27,9 @@
     iftop tcptrack sysstat htop slurm tree bc stress
 
     # Gui customization
-    lxappearance sweet
+    lxappearance sweet gtk-engine-murrine gnome-themes-standard
+
+    # Compression
+    unzip
   ];
 }

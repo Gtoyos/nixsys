@@ -5,12 +5,14 @@
 {
   home.packages = with pkgs; [
     # Debugging & packing
-    rr gdb pwndbg egypt shellcheck linuxPackages.perf gnumake
+    valgrind rr gdb pwndbg egypt shellcheck linuxPackages.perf gnumake
 
     # Compilers & Interpreters
-    python3 gcc racket
+    python3 gcc racket jdk
 
     # Dependencies
-    openssl python37Packages.numpy
+    tk openssl python37Packages.numpy
+
+
   ];
 }

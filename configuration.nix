@@ -15,6 +15,7 @@
         ./core/users.nix
         ./core/environment.nix
         ./core/gui/i3.nix
+        ./core/gui/lightdm.nix
 
         # Services
         ./core/services/ssh.nix

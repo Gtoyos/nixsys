@@ -23,4 +23,7 @@
 
     #Raw MediaKeys support.
     sound.mediaKeys.enable = true;
+
+    #What to do when lid is closed
+    services.logind.lidSwitch = "suspend";
 }
